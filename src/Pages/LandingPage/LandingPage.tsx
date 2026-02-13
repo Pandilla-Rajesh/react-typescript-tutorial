@@ -21,13 +21,13 @@ export const LandingPage = () => {
                             <div className=''>
                                 <ul className='right-nav'>
                                     <li className='nav-item'>
-                                        Login
+                                        <Link className='nav-link' to="/">Login</Link>
                                     </li>
-                                    <li>
-                                        Sign Up
+                                    <li className='nav-item'>
+                                        <Link to="/" className='nav-link'>Sign Up</Link>
                                     </li>
-                                    <li>
-                                        Rigister
+                                    <li className='nav-item'>
+                                        <Link to="/" className='nav-link'>Register</Link>
                                     </li>
                                 </ul>
                             </div>

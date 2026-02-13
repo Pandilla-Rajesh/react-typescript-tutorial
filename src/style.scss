@@ -134,8 +134,20 @@ h6 {
                     align-items: center;
                     flex-direction: row;
                     gap: 10px;
-                    li {
+                    .nav-item {
                         list-style: none;
+                        .nav-link {
+                            border: solid 1px;
+                            padding-block: 6px;
+                            padding-inline: 16px;
+                            border-radius: 6px;
+                            background: var(--theme-bdy-color);
+                            line-height: initial;
+                             :hover {
+                                background: var(--theme-land-color);
+                                transition: all 0.3s ease-in-out;
+                            }
+                        }
                     }
                 }
             }
