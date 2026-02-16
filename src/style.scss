@@ -137,14 +137,14 @@ h6 {
                     .nav-item {
                         list-style: none;
                         .nav-link {
-                            border: solid 1px;
+                            border: solid 1px var(--theme-bg-clor);
                             padding-block: 6px;
                             padding-inline: 16px;
                             border-radius: 6px;
                             background: var(--theme-bdy-color);
                             line-height: initial;
-                             :hover {
-                                background: var(--theme-land-color);
+                            &:hover {
+                                background: var(--theme-selection-color);
                                 transition: all 0.3s ease-in-out;
                             }
                         }

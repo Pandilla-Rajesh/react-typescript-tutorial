@@ -17,11 +17,15 @@ export const LandingPage = () => {
                         <img src={require('../../assets/images/ts-coverimage.png')} className='landing-image'
                             alt="typescript-image" loading='lazy' />
                         <div className='main-menu'>
-                            <div>'dfv.</div>
+                            <div>
+                                <Link to='/'>
+                                    <img src={require('../../assets/images/ts-brand.png')} loading='lazy'
+                                        alt="ts-brand" /></Link>
+                            </div>
                             <div className=''>
                                 <ul className='right-nav'>
                                     <li className='nav-item'>
-                                        <Link className='nav-link' to="/">Login</Link>
+                                        <Link className='nav-link' to="/login">Login</Link>
                                     </li>
                                     <li className='nav-item'>
                                         <Link to="/" className='nav-link'>Sign Up</Link>
